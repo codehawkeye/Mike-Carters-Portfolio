@@ -47,8 +47,8 @@ class Resume extends Component {
                />
 
                <Education
-                 startYear={2009}
-                 endYear={2012}
+                 startYear={}
+                 endYear={}
                  schoolName="University of Phoenix"
                  schoolDescription="Bachelor of Science in Business Marketing"
                   />
