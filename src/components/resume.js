@@ -40,15 +40,15 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2020}
-              endYear={2021}
+              // startYear={2020}
+              // endYear={2021}
               schoolName="University of Central Florida"
-              schoolDescription="UCF Coding BootCamp (Full-Stack Web Development)"
+              schoolDescription=" 2021 Coding BootCamp  (Full-Stack Web Development)"
                />
 
                <Education
-                 startYear={}
-                 endYear={}
+              //  startYear={2020}
+              //  endYear={2021}               
                  schoolName="University of Phoenix"
                  schoolDescription="Bachelor of Science in Business Marketing"
                   />
