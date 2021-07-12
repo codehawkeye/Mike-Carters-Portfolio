@@ -40,10 +40,10 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2020}
-              endYear={2021}
+              // startYear={2020}
+              // endYear={2021}
               schoolName="University of Central Florida"
-              schoolDescription="UCF Coding BootCamp (Full-Stack Web Development)"
+              schoolDescription=" 2021 Coding BootCamp  (Full-Stack Web Development)"
                />
 
                <Education
@@ -55,13 +55,7 @@ class Resume extends Component {
 
               <h2>Experience</h2>
 
-            {/* <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              /> */}
-
+           
               <Experience
                 startYear={2019}
                 endYear={2020}
@@ -69,23 +63,7 @@ class Resume extends Component {
                 jobDescription=" Manufacturing Supervisor : Managed schedule and production of Lockheed Martin products.  "
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
-              {/* <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={85}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={40}
-                      /> */}
+
 
 
           </Cell>
