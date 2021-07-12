@@ -136,9 +136,9 @@ class Projects extends Component {
     } else if(this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
-        {/* MONGODB Project 1 */}
+        {/*  Game Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >MONGO_DB Project</CardTitle>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >Game Project</CardTitle>
           <CardText>
           Please check back for updates on my game Application.  
           </CardText>
