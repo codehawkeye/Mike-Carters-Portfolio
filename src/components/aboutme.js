@@ -19,9 +19,8 @@ class About extends Component {
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           <p>
             {" "}
-            Junior Full StackDeveloper, I have always had a strong passion for
-            web development that begin with classes in c++, and linux/Unix in
-            my undergrad.{" "}
+            Junior full stack web developer able to contribute to all phases of an application. Earned a Certificate in Full Stack Web Development from University of Central Florida. 3 plus years of leadership and product lifecycle management. 
+.{" "}
           </p>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           <h5>Address</h5>
@@ -34,7 +33,7 @@ class About extends Component {
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
         </Cell>
         <Cell className="resume-right-col" col={8}>
-          <h2>About The Developer</h2>
+          <h2>About Me</h2>
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
           <h4>   I'm a former defense contractor who has always had a passion for web design. I have experience with server-side development,

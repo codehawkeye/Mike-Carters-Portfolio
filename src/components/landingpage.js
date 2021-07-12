@@ -40,11 +40,7 @@ class Landing extends Component {
             <i className="fa fa-free-code-camp" aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
-          <a href="https://static.impression.co.uk/2014/05/loading1.gif" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
-
+        
         </div>
             </div>
           </Cell>
