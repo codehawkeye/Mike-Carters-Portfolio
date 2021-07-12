@@ -86,11 +86,11 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
-          {/* Angular Project 1 */}
+          {/* Social Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >Angular Project</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >Mygram</CardTitle>
             <CardText>
-            Please check back for updates on my Angular Applications.  
+            Please check back for updates on my Social Application.  
             </CardText>
             <CardActions border>
               <Button type="button" onClick={(e) => {
@@ -111,11 +111,11 @@ class Projects extends Component {
     } else if(this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
-        {/* VUEJS Project 1 */}
+        {/* Game Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >VUEJS Project</CardTitle>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >Game Project</CardTitle>
           <CardText>
-          Please check back for updates on my VUEJS Applications.  
+          Please check back for updates on my first game Application.  
           </CardText>
           <CardActions border>
             <Button type="button" onClick={(e) => {
@@ -140,7 +140,7 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.postimg.cc/zf7J6jh6/Screen-Shot-2021-04-12-at-1-56-35-PM.png) center / cover'}} >MONGO_DB Project</CardTitle>
           <CardText>
-          Please check back for updates on my MONGO_DB Applications.  
+          Please check back for updates on my game Application.  
           </CardText>
           <CardActions border>
             <Button type="button" onClick={(e) => {
@@ -168,10 +168,10 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Business</Tab>
+          <Tab>Social</Tab>
+          <Tab>Game</Tab>
+          {/* <Tab></Tab> */}
         </Tabs>
 
 
